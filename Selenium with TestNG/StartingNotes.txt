@@ -1,0 +1,126 @@
+# Starting Notes – Selenium with TestNG
+
+Short and simple notes to understand **what to do, how to do it, and why it is used** when starting Selenium with TestNG.
+
+---
+## Why Use Selenium + TestNG Together?
+
+* Selenium → interacts with browser
+* TestNG → controls test flow
+* Together they provide:
+
+  * Structured execution
+  * Easy test management
+  * Better readability
+  * Automation support
+
+---
+
+## Basic Flow of Selenium with TestNG
+
+1. Open browser
+2. Launch application URL
+3. Perform actions (click, type, verify)
+4. Validate results
+5. Close browser
+
+TestNG manages *when* each step runs.
+
+---
+
+## Basic Things to Do Before Writing Tests
+
+* Add Selenium dependency
+* Add TestNG dependency
+* Setup WebDriver (ChromeDriver/ EdgeDriver/ etc)
+* Create a TestNG class
+* Add annotations
+
+---
+
+## Common TestNG Annotations (Most Important)
+
+### @BeforeSuite
+
+* Runs once before the entire test suite
+* Used for global setup
+
+### @BeforeTest
+
+* Runs before <test> in testng.xml
+* Used for configuration setup
+
+### @BeforeClass
+
+* Runs once before all methods in a class
+* Common place to initialize WebDriver
+
+### @BeforeMethod
+
+* Runs before every @Test method
+* Used to open URL or prepare test data
+
+---
+
+### @Test
+
+* Marks a method as a test case
+* Contains Selenium actions and validations
+
+---
+
+### @AfterMethod
+
+* Runs after every @Test method
+* Used for cleanup after each test
+
+### @AfterClass
+
+* Runs once after all test methods
+* Used to quit browser
+
+### @AfterTest
+
+* Runs after <test> execution ends
+
+### @AfterSuite
+
+* Runs after complete suite execution
+
+---
+
+## Why Before & After Annotations Are Important
+
+* Avoid code repetition
+* Keep setup and cleanup separate
+* Improve readability
+* Make tests reusable
+* Control execution flow clearly
+
+---
+
+## Example Execution Order (Simple)
+
+@BeforeSuite
+@BeforeTest
+@BeforeClass
+@BeforeMethod
+@Test
+@AfterMethod
+@AfterClass
+@AfterTest
+@AfterSuite
+
+---
+
+## Why Use testng.xml
+
+* Controls which tests to run
+* Helps group tests
+* Pass parameters (browser, URL)
+* Supports parallel execution
+* Avoids hardcoding values
+
+---
+
+
