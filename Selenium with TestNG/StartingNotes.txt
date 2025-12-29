@@ -30,8 +30,8 @@ TestNG manages *when* each step runs.
 
 ## Basic Things to Do Before Writing Tests
 
-* Add Selenium dependency
-* Add TestNG dependency
+* Add Selenium dependency (to the pom.xml)
+* Add TestNG dependency (to the pom.xml)
 * Setup WebDriver (ChromeDriver/ EdgeDriver/ etc)
 * Create a TestNG class
 * Add annotations
