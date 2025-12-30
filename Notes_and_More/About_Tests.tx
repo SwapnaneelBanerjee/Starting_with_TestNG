@@ -14,7 +14,7 @@ If a prerequisite is not met, it is marked Skipped.
 3. When it Works (The Triggers)
 ---> A @Test method executes when:
 You right-click the class and select Run as TestNG Test.
-You run a testng.xml file that includes the class or package.
+You run a testng.xml file that includes the class or package. ----or using the xml we can run test suites
 Its dependencies (if any) have successfully finished.
 It is Enabled (the attribute enabled=true is the default).
 
