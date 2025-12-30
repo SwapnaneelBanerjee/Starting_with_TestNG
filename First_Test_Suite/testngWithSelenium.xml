@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="practice.learning.seleniumWithTestNG.NavAutomationWithTestNG"/>
+      
+      <class name="practice.learning.seleniumWithTestNG.LoginAutomationWithTestNG"/>
+      
+      <class name="practice.learning.seleniumWithTestNG.ContactAutomationWithTestNG"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
