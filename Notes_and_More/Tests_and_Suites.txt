@@ -9,3 +9,21 @@ What it is: The highest level in the TestNG hierarchy. A Suite represents a coll
 How it works: Defined in the XML by the <suite> tag. It allows you to manage global settings like parallel execution, thread counts, and shared parameters.
 When it works: When you run a testng.xml file. It groups all the individual test classes into one execution report.
 Key Attribute: parallel="tests" or parallel="classes" (allows running multiple tests at once).
+
+2. Test 
+What it is: A logical grouping of one or more classes within a suite.
+How it works: Defined by the <test> tag in the XML. You might have one "Test" for "Chrome Browser" and another "Test" for "Firefox Browser," or one for "Smoke Module" and another for "Regression Module."
+When it works: It acts as a filter. If you tell TestNG to run a specific <test> block, it only executes the classes inside that block.
+Key Fact: Annotations like @BeforeTest and @AfterTest run before and after this specific block in the XML.
+
+3. Class (The Container for Code basic POJO)
+What it is: A standard Java class file (e.g., LoginTest.java) that contains your test logic.
+How it works: Classes are specified in the XML under the <classes> tag. TestNG creates an instance of this class to run the methods inside it.
+When it works: When included in the XML or when you right-click the file to "Run as TestNG Test."
+Key Annotation: @BeforeClass and @AfterClass run exactly once per class, regardless of how many test methods are inside.
+
+4. Method 
+What it is: An individual function inside a class. This is where the actual Selenium code lives.
+How it works: Marked by the @Test annotation. Methods are the smallest unit of execution that can pass or fail.
+When it works: Methods run according to their Priority or Alphabetical order.
+Key Annotation: @BeforeMethod and @AfterMethod. These are the most common; they run for every single method in the class (perfect for starting/stopping the browser).
