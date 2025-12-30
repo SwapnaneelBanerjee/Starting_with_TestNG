@@ -1,0 +1,11 @@
+Test Suite ---> Tests ---> Classes ---> Methods
+
+* A Suite normally has multiple Tests
+* A Test has multiple Classes 
+* A Class can have multiple Test Methods
+
+1. Suite 
+What it is: The highest level in the TestNG hierarchy. A Suite represents a collection of multiple tests.
+How it works: Defined in the XML by the <suite> tag. It allows you to manage global settings like parallel execution, thread counts, and shared parameters.
+When it works: When you run a testng.xml file. It groups all the individual test classes into one execution report.
+Key Attribute: parallel="tests" or parallel="classes" (allows running multiple tests at once).
