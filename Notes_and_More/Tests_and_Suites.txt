@@ -16,7 +16,7 @@ How it works: Defined by the <test> tag in the XML. You might have one "Test" fo
 When it works: It acts as a filter. If you tell TestNG to run a specific <test> block, it only executes the classes inside that block.
 Key Fact: Annotations like @BeforeTest and @AfterTest run before and after this specific block in the XML.
 
-3. Class (The Container for Code basic POJO)
+3. Class (The Container for Code, basic POJO)
 What it is: A standard Java class file (e.g., LoginTest.java) that contains your test logic.
 How it works: Classes are specified in the XML under the <classes> tag. TestNG creates an instance of this class to run the methods inside it.
 When it works: When included in the XML or when you right-click the file to "Run as TestNG Test."
