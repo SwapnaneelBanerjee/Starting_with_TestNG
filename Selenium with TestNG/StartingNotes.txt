@@ -1,8 +1,5 @@
 # Starting Notes – Selenium with TestNG
-
-Short and simple notes to understand **what to do, how to do it, and why it is used** when starting Selenium with TestNG.
-
----
+----------------------------------------------------------------------------------------------------------------------
 ## Why Use Selenium + TestNG Together?
 
 * Selenium → interacts with browser
@@ -14,7 +11,7 @@ Short and simple notes to understand **what to do, how to do it, and why it is u
   * Better readability
   * Automation support
 
----
+-----------------------------------------------------------------------------------------------------------------------
 
 ## Basic Flow of Selenium with TestNG
 
@@ -26,7 +23,7 @@ Short and simple notes to understand **what to do, how to do it, and why it is u
 
 TestNG manages *when* each step runs.
 
----
+-----------------------------------------------------------------------------------------------------------------------
 
 ## Basic Things to Do Before Writing Tests
 
@@ -36,7 +33,7 @@ TestNG manages *when* each step runs.
 * Create a TestNG class
 * Add annotations
 
----
+-----------------------------------------------------------------------------------------------------------------------
 
 ## Common TestNG Annotations (Most Important)
 
@@ -60,7 +57,7 @@ TestNG manages *when* each step runs.
 * Runs before every @Test method
 * Used to open URL or prepare test data
 
----
+-----------------------------------------------------------------------------------------------------------------------
 
 ### @Test
 
@@ -87,7 +84,7 @@ TestNG manages *when* each step runs.
 
 * Runs after complete suite execution
 
----
+-----------------------------------------------------------------------------------------------------------------------
 
 ## Why Before & After Annotations Are Important
 
@@ -97,7 +94,7 @@ TestNG manages *when* each step runs.
 * Make tests reusable
 * Control execution flow clearly
 
----
+-----------------------------------------------------------------------------------------------------------------------
 
 ## Example Execution Order (Simple)
 
@@ -111,7 +108,7 @@ TestNG manages *when* each step runs.
 @AfterTest
 @AfterSuite
 
----
+-----------------------------------------------------------------------------------------------------------------------
 
 ## Why Use testng.xml
 
@@ -121,6 +118,6 @@ TestNG manages *when* each step runs.
 * Supports parallel execution
 * Avoids hardcoding values
 
----
+-----------------------------------------------------------------------------------------------------------------------
 
 
