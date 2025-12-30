@@ -6,6 +6,6 @@ Starting with TestNG
 
 ---> @BeforeTest / @AfterTest: Runs once for the <test> block in testng.xml.
 
-@BeforeClass / @AfterClass: Runs once per Java class file.
+---> @BeforeClass / @AfterClass: Runs once per Java class file.
 
 @BeforeMethod / @AfterMethod: Runs before/after every @Test. (Best for opening/closing the browser to ensure test independence).
