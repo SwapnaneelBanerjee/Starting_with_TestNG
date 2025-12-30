@@ -10,3 +10,10 @@ It wraps each test in a try-catch block internally:
 If no exception occurs, the test is marked Passed.
 If an AssertionError or any Exception occurs, it is marked Failed.
 If a prerequisite is not met, it is marked Skipped.
+
+3. When it Works (The Triggers)
+---> A @Test method executes when:
+You right-click the class and select Run as TestNG Test.
+You run a testng.xml file that includes the class or package.
+Its dependencies (if any) have successfully finished.
+It is Enabled (the attribute enabled=true is the default).
