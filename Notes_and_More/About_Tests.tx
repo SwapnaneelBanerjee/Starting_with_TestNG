@@ -1,1 +1,4 @@
-
+1. What is @Test?
+---> Definition: It is the primary TestNG annotation used to mark a method as a Test Case.
+Purpose: It tells the TestNG engine that the annotated method is not a regular helper method, but a piece of logic that should be executed and reported on (Pass/Fail).
+Return Type: Methods marked with @Test must be public and should ideally return void.
