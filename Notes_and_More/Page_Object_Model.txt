@@ -14,3 +14,11 @@ Key Attributes of the POM concept :
 
 1. The "Single Point of Failure" Rule
 If the "Login" button ID changes on the website, you only fix it once in the LoginPage class. Without POM, you would have to search and replace that ID in every single test file.
+
+2. Methods Represent Actions
+Instead of writing driver.findElement(...).click() in your test, you create a method in the Page Class called clickLoginButton(). 
+
+Your test then looks like human-readable English:
+  loginPage.enterCredentials("user", "pass"); 
+  loginPage.clickLoginButton();
+
