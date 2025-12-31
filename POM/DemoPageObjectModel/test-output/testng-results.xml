@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-31T11:25:14 IST" name="Suite" finished-at="2025-12-31T11:25:25 IST" duration-ms="10832">
+    <groups>
+    </groups>
+    <test started-at="2025-12-31T11:25:14 IST" name="Test" finished-at="2025-12-31T11:25:21 IST" duration-ms="6982">
+      <class name="practice.learning.tests.NavTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:practice.learning.tests.NavTest@1165b38]" started-at="2025-12-31T11:25:14 IST" name="setup" finished-at="2025-12-31T11:25:18 IST" duration-ms="4043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testNavigationException()[pri:0, instance:practice.learning.tests.NavTest@1165b38]" started-at="2025-12-31T11:25:18 IST" name="testNavigationException" finished-at="2025-12-31T11:25:19 IST" duration-ms="825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationException -->
+        <test-method is-config="true" signature="resetBack()[pri:0, instance:practice.learning.tests.NavTest@1165b38]" started-at="2025-12-31T11:25:19 IST" name="resetBack" finished-at="2025-12-31T11:25:19 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetBack -->
+        <test-method signature="testNavigationLogin()[pri:0, instance:practice.learning.tests.NavTest@1165b38]" started-at="2025-12-31T11:25:19 IST" name="testNavigationLogin" finished-at="2025-12-31T11:25:19 IST" duration-ms="431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationLogin -->
+        <test-method is-config="true" signature="resetBack()[pri:0, instance:practice.learning.tests.NavTest@1165b38]" started-at="2025-12-31T11:25:19 IST" name="resetBack" finished-at="2025-12-31T11:25:19 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetBack -->
+        <test-method signature="testNavigationTable()[pri:0, instance:practice.learning.tests.NavTest@1165b38]" started-at="2025-12-31T11:25:19 IST" name="testNavigationTable" finished-at="2025-12-31T11:25:20 IST" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationTable -->
+        <test-method is-config="true" signature="resetBack()[pri:0, instance:practice.learning.tests.NavTest@1165b38]" started-at="2025-12-31T11:25:20 IST" name="resetBack" finished-at="2025-12-31T11:25:20 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetBack -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practice.learning.tests.NavTest@1165b38]" started-at="2025-12-31T11:25:20 IST" name="tearDown" finished-at="2025-12-31T11:25:21 IST" duration-ms="1173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- practice.learning.tests.NavTest -->
+    </test> <!-- Test -->
+    <test started-at="2025-12-31T11:25:21 IST" name="Test2" finished-at="2025-12-31T11:25:25 IST" duration-ms="3700">
+      <class name="practice.learning.tests.HomeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:practice.learning.tests.HomeTest@247bddad]" started-at="2025-12-31T11:25:21 IST" name="setup" finished-at="2025-12-31T11:25:24 IST" duration-ms="3219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testHomeNavigation()[pri:0, instance:practice.learning.tests.HomeTest@247bddad]" started-at="2025-12-31T11:25:24 IST" name="testHomeNavigation" finished-at="2025-12-31T11:25:25 IST" duration-ms="475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeNavigation -->
+      </class> <!-- practice.learning.tests.HomeTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

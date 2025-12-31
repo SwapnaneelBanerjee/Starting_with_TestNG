@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test:Navigation">
+    <classes>
+      <class name="practice.learning.tests.NavTest"/>
+      <class name="practice.learning.tests.HomeTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test:Login">
+    <classes>
+      <class name="practice.learning.tests.HomeTest"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->
