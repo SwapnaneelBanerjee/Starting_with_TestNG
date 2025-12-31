@@ -26,6 +26,6 @@ public class LoginTest {
 	}
 	
   @Test
-  public void f() {
+  public void perfromValidLogin() {
   }
 }
