@@ -5,10 +5,10 @@
     <classes>
       <class name="practice.learning.tests.LoginTest">
         <methods>
-          <include name="perfromValidLogin"/>
+          <include name="resetState"/>
+          <include name="performInvalidLoginPassword"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="resetDriver"/>
         </methods>
       </class> <!-- practice.learning.tests.LoginTest -->
     </classes>

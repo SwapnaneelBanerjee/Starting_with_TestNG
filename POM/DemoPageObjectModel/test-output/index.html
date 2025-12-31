@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\SWAPNANEELBANERJEE\AppData\Local\Temp\testng-eclipse--1624612471\testng-customsuite.xml</span>
+                    <span>C:\Users\SWAPNANEELBANERJEE\AppData\Local\Temp\testng-eclipse--1150881621\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,6 +104,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="practice.learning.tests.LoginTest" class="method navigator-link" hash-for-method="performInvalidLoginPassword">performInvalidLoginPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="practice.learning.tests.LoginTest" class="method navigator-link" hash-for-method="performInvalidLoginUsername">performInvalidLoginUsername</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -138,6 +143,13 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="performInvalidLoginUsername">
+                  </a> <!-- performInvalidLoginUsername -->
+                  <span class="method-name">performInvalidLoginUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="performValidLogin">
                   </a> <!-- performValidLogin -->
                   <span class="method-name">performValidLogin</span>
@@ -148,7 +160,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\SWAPNANEELBANERJEE\AppData\Local\Temp\testng-eclipse--1624612471\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\SWAPNANEELBANERJEE\AppData\Local\Temp\testng-eclipse--1150881621\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -197,20 +209,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'performValidLogin')
 data.setCell(0, 2, 'practice.learning.tests.LoginTest')
-data.setCell(0, 3, 1135);
+data.setCell(0, 3, 1131);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'performInvalidLoginPassword')
 data.setCell(1, 2, 'practice.learning.tests.LoginTest')
-data.setCell(1, 3, 405);
+data.setCell(1, 3, 660);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'performInvalidLoginUsername')
+data.setCell(2, 2, 'practice.learning.tests.LoginTest')
+data.setCell(2, 3, 349);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -243,23 +259,31 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">resetState</span>
-                <span class="method-start">4546 ms</span>
+                <span class="method-start">4385 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">performInvalidLoginPassword</span>
-                <span class="method-start">5042 ms</span>
+                <span class="method-start">4866 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">resetState</span>
-                <span class="method-start">5452 ms</span>
+                <span class="method-start">5532 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">performInvalidLoginUsername</span>
+                <span class="method-start">5631 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">resetState</span>
+                <span class="method-start">5982 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">performValidLogin</span>
-                <span class="method-start">5571 ms</span>
+                <span class="method-start">6081 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">6710 ms</span>
+                <span class="method-start">7216 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

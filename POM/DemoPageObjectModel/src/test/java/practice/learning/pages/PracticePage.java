@@ -5,6 +5,8 @@ import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class PracticePage {
 
@@ -12,44 +14,59 @@ public class PracticePage {
 	WebElement testLoginPage;
 	WebElement testException;
 	WebElement testTable;
-	
-    private By usernameField = By.name("username");
-    private By passwordField = By.name("password");
-    private By submitButton = By.id("submit");
-	
+
+	private By usernameField = By.name("username");
+	private By passwordField = By.name("password");
+	private By submitButton = By.id("submit");
+	private By errorMsgLocator = By.id("error");
+
 	public PracticePage( WebDriver d) {
 		driver = d;
 		driver.get("https://practicetestautomation.com/practice/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-		
+
 		testLoginPage = driver.findElement(By.linkText("Test Login Page"));
 		testException = driver.findElement(By.linkText("Test Exceptions"));
 		testTable = driver.findElement(By.linkText("Test Table"));
 	}
-	
-	
+
+
 	public void clickTestLoginPage() {
 		testLoginPage.click();
 	}
-	
+
 	public void clickTestException() {
 		testException.click();
 	}
-	
+
 	public void clickTestTable() {
 		testTable.click();
 	}
-	
-	public void openLoginPage() {
-        driver.get("https://practicetestautomation.com/practice-test-login/");
-    }
-	
-	public void login(String user, String pass) {
-        driver.findElement(usernameField).sendKeys(user);
-        driver.findElement(passwordField).sendKeys(pass);
-        driver.findElement(submitButton).click();
-    }
 
+	public void openLoginPage() {
+		driver.get("https://practicetestautomation.com/practice-test-login/");
 	}
+
+	public void login(String user, String pass) {
+		driver.findElement(usernameField).sendKeys(user);
+		driver.findElement(passwordField).sendKeys(pass);
+		driver.findElement(submitButton).click();
+	}
+
+
+	public String getPageTitle() {
+		return driver.getTitle();
+	}
+
+
+	public String errorMessageDisplayed() {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+		
+		WebElement errorElement = wait.until(ExpectedConditions.visibilityOfElementLocated(errorMsgLocator));
+	    
+	    return errorElement.getText();
+	}
+
+}
 

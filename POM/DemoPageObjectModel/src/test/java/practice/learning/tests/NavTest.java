@@ -5,10 +5,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import practice.learning.pages.PracticePage;
 
+@Listeners(practice.learning.utility.Listeners.class)
 public class NavTest {
 	
 	WebDriver driver;
