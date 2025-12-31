@@ -1,1 +1,7 @@
+What are Design Models?
+---> Definition: Reusable solutions to recurring problems in software architecture.
+Purpose: To make code maintainable, readable, and reusable.
+In Automation: They prevent "Spaghetti Code" where locators and test logic are mixed together.
+Examples : Singleton, Observer, Factory, etc. 
+
 
