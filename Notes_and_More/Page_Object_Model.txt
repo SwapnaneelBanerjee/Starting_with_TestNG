@@ -22,3 +22,7 @@ Your test then looks like human-readable English:
   loginPage.enterCredentials("user", "pass"); 
   loginPage.clickLoginButton();
 
+3. No Assertions in Page Classes
+A common mistake is putting Assert.assertTrue inside a Page Class.
+Page Classes should only provide information or perform actions.
+Test Classes should make the final "Pass/Fail" decision.
