@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-31T12:29:02 IST" name="Default suite" finished-at="2025-12-31T12:29:11 IST" duration-ms="8745">
+  <suite started-at="2025-12-31T12:35:04 IST" name="Default suite" finished-at="2025-12-31T12:35:12 IST" duration-ms="7997">
     <groups>
     </groups>
-    <test started-at="2025-12-31T12:29:02 IST" name="Default test" finished-at="2025-12-31T12:29:11 IST" duration-ms="8745">
+    <test started-at="2025-12-31T12:35:04 IST" name="Default test" finished-at="2025-12-31T12:35:12 IST" duration-ms="7997">
       <class name="practice.learning.tests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:practice.learning.tests.LoginTest@7dcf94f8]" started-at="2025-12-31T12:29:02 IST" name="setup" finished-at="2025-12-31T12:29:07 IST" duration-ms="4985" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:practice.learning.tests.LoginTest@7dcf94f8]" started-at="2025-12-31T12:35:04 IST" name="setup" finished-at="2025-12-31T12:35:09 IST" duration-ms="4529" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="resetState()[pri:0, instance:practice.learning.tests.LoginTest@7dcf94f8]" started-at="2025-12-31T12:29:07 IST" name="resetState" finished-at="2025-12-31T12:29:07 IST" duration-ms="639" status="PASS">
+        <test-method is-config="true" signature="resetState()[pri:0, instance:practice.learning.tests.LoginTest@7dcf94f8]" started-at="2025-12-31T12:35:09 IST" name="resetState" finished-at="2025-12-31T12:35:09 IST" duration-ms="495" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetState -->
-        <test-method signature="performInvalidLogin()[pri:1, instance:practice.learning.tests.LoginTest@7dcf94f8]" started-at="2025-12-31T12:29:07 IST" name="performInvalidLogin" finished-at="2025-12-31T12:29:08 IST" duration-ms="374" status="PASS">
+        <test-method signature="performInvalidLoginPassword()[pri:0, instance:practice.learning.tests.LoginTest@7dcf94f8]" started-at="2025-12-31T12:35:09 IST" name="performInvalidLoginPassword" finished-at="2025-12-31T12:35:10 IST" duration-ms="405" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- performInvalidLogin -->
-        <test-method is-config="true" signature="resetState()[pri:0, instance:practice.learning.tests.LoginTest@7dcf94f8]" started-at="2025-12-31T12:29:08 IST" name="resetState" finished-at="2025-12-31T12:29:08 IST" duration-ms="85" status="PASS">
+        </test-method> <!-- performInvalidLoginPassword -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:practice.learning.tests.LoginTest@7dcf94f8]" started-at="2025-12-31T12:35:10 IST" name="resetState" finished-at="2025-12-31T12:35:10 IST" duration-ms="119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetState -->
-        <test-method signature="performValidLogin()[pri:2, instance:practice.learning.tests.LoginTest@7dcf94f8]" started-at="2025-12-31T12:29:08 IST" name="performValidLogin" finished-at="2025-12-31T12:29:09 IST" duration-ms="1370" status="PASS">
+        <test-method signature="performValidLogin()[pri:0, instance:practice.learning.tests.LoginTest@7dcf94f8]" started-at="2025-12-31T12:35:10 IST" name="performValidLogin" finished-at="2025-12-31T12:35:11 IST" duration-ms="1135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- performValidLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:practice.learning.tests.LoginTest@7dcf94f8]" started-at="2025-12-31T12:29:09 IST" name="tearDown" finished-at="2025-12-31T12:29:11 IST" duration-ms="1242" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practice.learning.tests.LoginTest@7dcf94f8]" started-at="2025-12-31T12:35:11 IST" name="tearDown" finished-at="2025-12-31T12:35:12 IST" duration-ms="1250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

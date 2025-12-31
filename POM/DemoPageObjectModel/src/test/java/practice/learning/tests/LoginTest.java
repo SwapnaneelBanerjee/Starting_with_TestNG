@@ -32,17 +32,22 @@ public class LoginTest {
             driver.quit();
     }
 
-    @Test(priority = 1)
-    public void performInvalidLogin() {
-        pageObj.login("student", "wrongPass");
-        // Assert error message
-    }
-
-    @Test(priority = 2)
+    @Test
     public void performValidLogin() {
         pageObj.login("student", "Password123");
         // Assert success
     }
 
+    @Test
+    public void performInvalidLoginPassword() {
+        pageObj.login("student", "wrongPass");
+        // Assert error message
+    }
+    
+    @Test
+    public void performInvalidLoginUsername() {
+        pageObj.login("Notstudent", "Password123");
+        // Assert error message
+    }
     
 }
