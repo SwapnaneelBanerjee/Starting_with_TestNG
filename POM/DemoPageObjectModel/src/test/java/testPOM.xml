@@ -8,7 +8,7 @@
   </test> <!-- Test -->
   <test name="Test:Login">
     <classes>
-      <class name="practice.learning.tests.HomeTest"/>
+      <class name="practice.learning.tests.LoginTest"/>
     </classes>
   </test>
 </suite> <!-- Suite -->
