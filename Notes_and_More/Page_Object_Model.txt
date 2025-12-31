@@ -10,3 +10,7 @@ Separation of Concerns:
 The Page Class: Stores the Locators (By IDs, XPaths) and the Actions (methods like typeUsername).
 The Test Class: Contains the Assertions and the "story" of the test (e.g., verifyLoginSuccess).
 
+Key Attributes of the POM concept :
+
+1. The "Single Point of Failure" Rule
+If the "Login" button ID changes on the website, you only fix it once in the LoginPage class. Without POM, you would have to search and replace that ID in every single test file.
