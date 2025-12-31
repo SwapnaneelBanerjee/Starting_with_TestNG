@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.learning.tests.NavTest">
+      <class name="practice.learning.tests.LoginTest">
         <methods>
-          <include name="testNavigationException"/>
-          <include name="setup"/>
-          <include name="resetBack"/>
+          <include name="perfromValidLogin"/>
           <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="resetDriver"/>
         </methods>
-      </class> <!-- practice.learning.tests.NavTest -->
+      </class> <!-- practice.learning.tests.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -13,6 +13,10 @@ public class PracticePage {
 	WebElement testException;
 	WebElement testTable;
 	
+    private By usernameField = By.name("username");
+    private By passwordField = By.name("password");
+    private By submitButton = By.id("submit");
+	
 	public PracticePage( WebDriver d) {
 		driver = d;
 		driver.get("https://practicetestautomation.com/practice/");
@@ -36,6 +40,16 @@ public class PracticePage {
 	public void clickTestTable() {
 		testTable.click();
 	}
+	
+	public void openLoginPage() {
+        driver.get("https://practicetestautomation.com/practice-test-login/");
+    }
+	
+	public void login(String user, String pass) {
+        driver.findElement(usernameField).sendKeys(user);
+        driver.findElement(passwordField).sendKeys(pass);
+        driver.findElement(submitButton).click();
+    }
 
 	}
 
