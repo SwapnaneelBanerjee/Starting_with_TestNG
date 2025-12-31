@@ -30,4 +30,5 @@ Test Classes should make the final "Pass/Fail" decision.
 4. Object Chaining
 In advanced POM, a method can return the "Next Page."
 
-Example: A clickLogin() method in the LoginPage class can return a new DashboardPage(). This allows you to "chain" actions in one line.
+Example: A clickLogin() method in the LoginPage class can return a new DashboardPage(). 
+This allows you to "chain" actions in one line.
