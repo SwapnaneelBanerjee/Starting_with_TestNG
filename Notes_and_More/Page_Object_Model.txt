@@ -4,4 +4,9 @@ Purpose: To make code maintainable, readable, and reusable.
 In Automation: They prevent "Spaghetti Code" where locators and test logic are mixed together.
 Examples : Singleton, Observer, Factory, etc. 
 
+What is Page Object Model (POM)?
+---> The Core Idea: You create a separate Java class for every web page of your application (e.g., LoginPage.java, DashboardPage.java).
+Separation of Concerns:
+The Page Class: Stores the Locators (By IDs, XPaths) and the Actions (methods like typeUsername).
+The Test Class: Contains the Assertions and the "story" of the test (e.g., verifyLoginSuccess).
 
