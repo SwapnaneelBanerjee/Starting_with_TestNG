@@ -1,1 +1,4 @@
-
+What is Cucumber?
+---> A BDD Tool: It’s a testing tool that supports Behavior Driven Development, allowing you to write test cases that anyone (even non-technical managers) can read.
+Gherkin Language: It uses a specific syntax called Gherkin (Given, When, Then) to write tests in plain English.
+The Bridge: It acts as a translation layer between Business Requirements and your Selenium Automation code.
