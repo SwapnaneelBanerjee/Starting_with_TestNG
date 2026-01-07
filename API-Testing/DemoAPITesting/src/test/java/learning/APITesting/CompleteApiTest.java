@@ -10,7 +10,7 @@ import io.restassured.response.Response;
 
 public class CompleteApiTest {
 
-    // 1. SIMPLE GET REQUEST
+    // Basic Get
 
     @Test
     public void simpleGetWeather() {
@@ -28,7 +28,7 @@ public class CompleteApiTest {
 
 
 
-    // 2. VALIDATE STATUS CODE
+    // Check Status
 
     @Test
     public void validateStatusCode() {
@@ -46,7 +46,7 @@ public class CompleteApiTest {
 
 
 
-    // 3. PRINT ALL HEADERS
+    // Print all
 
     @Test
     public void printAllHeaders() {
@@ -67,7 +67,7 @@ public class CompleteApiTest {
 
 
 
-    // 4. EXTRACT JSON FIELDS USING JSONPATH
+    // Extract json fields using json path
 
     @Test
     public void extractJsonFields() {
@@ -92,7 +92,7 @@ public class CompleteApiTest {
 
 
 
-    // 5. GET REQUEST USING QUERY PARAMETERS
+    // Get Request using Param Requests
 
     @Test
     public void queryParamRequest() {
@@ -114,7 +114,7 @@ public class CompleteApiTest {
 
 
 
-    // 6. POST REQUEST (CREATE USER)
+    // Post Requests
 
     @Test
     public void postRequestExample() {
@@ -140,7 +140,7 @@ public class CompleteApiTest {
 
 
 
-    // 7. PUT REQUEST (UPDATE FULL USER)
+    // Put Request
 
     @Test
     public void putRequestExample() {
@@ -166,7 +166,7 @@ public class CompleteApiTest {
 
 
 
-    // 8. PATCH REQUEST (PARTIAL UPDATE)
+    // Patch Request
 
     @Test
     public void patchRequestExample() {
@@ -191,8 +191,7 @@ public class CompleteApiTest {
 
 
 
-    // 9. DELETE REQUEST
-
+    // Delete
     @Test
     public void deleteRequestExample() {
 
